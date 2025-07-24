@@ -59,12 +59,6 @@ To build the app for production:
 npm run build
 ```
 
-The output will be in the `dist/` directory.
-
-## Deployment
-
-You can deploy the contents of the `dist/` directory to any static hosting provider (e.g., Vercel, Netlify, GitHub Pages). Make sure to set the required environment variables in your deployment platform.
-
 ## Features
 
 - User authentication with Clerk
