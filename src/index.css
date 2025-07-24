@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .glass-morphism {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: rgba(139, 92, 246, 0.1);
+    border: 1px solid rgba(139, 92, 246, 0.2);
+  }
+
+  .checkbox-pink {
+    background-color: #ec4899;
+    border-color: #ec4899;
+  }
+
+  .task-text-completed {
+    color: #9ca3af;
+    text-decoration: line-through;
+  }
+
+  .task-text {
+    color: #f3f4f6;
+  }
+}
